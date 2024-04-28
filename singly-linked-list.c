@@ -157,7 +157,7 @@ int insertFirst(headNode* h, int key) {
 /* 리스트를 검색하여, 입력받은 key보다 큰값이 나오는 노드 바로 앞에 삽입 */
 int insertNode(headNode* h, int key) {
 
-	listNode* node = (listNode*)malloc(sizeof(listNode)); // 새로운 노드 동적할당
+	listNode* node = (listNode*)malloc(sizeof(listNode)); // 새로운 노드 동적할당.
 
 	node->key = key; // 새로운 노드의 key에 key값 저장
 	node->link = NULL; // 새로운 노드의 link를 NULL로 초기화
